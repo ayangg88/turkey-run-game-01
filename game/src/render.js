@@ -541,7 +541,7 @@ var Render = (function () {
     ctx.fillText('Best distance: ' + Math.floor(Math.max(s.best, t.distanceM)) + ' m', W / 2, 418);
     button(ctx, { x: W / 2 - 130, y: 450, w: 260, h: 60 }, '↻  RUN AGAIN');
     ctx.font = '18px sans-serif';
-    ctx.fillText('or press R', W / 2, 540);
+    ctx.fillText('or press R', W / 2, 556);
   }
 
   function render(ctx, s) {
